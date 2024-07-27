@@ -26,7 +26,7 @@ Check out the live demo [here](https://github-stats.charlotte-greenaway.com/).
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/github-stats-dashboard.git
+    git clone https://github.com/Charlotte-Greenaway/github-stats-dashboard.git
     cd github-stats-dashboard
     ```
 
