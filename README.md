@@ -1,6 +1,7 @@
 # GitHub Stats Dashboard
 
 A Flask application to visualize GitHub activity and contributions. This project displays various statistics including the languages used, commit timeline, and top repositories for a given GitHub user.
+<img width="940" alt="image" src="https://github.com/user-attachments/assets/a1609c48-c159-4430-940d-2c5d8f366cd7">
 
 ## Live Demo
 
