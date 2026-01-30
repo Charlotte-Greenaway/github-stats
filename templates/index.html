@@ -32,6 +32,14 @@
           Visualize your GitHub activity and contributions.
         </p>
       </header>
+      {% if error %}
+      <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-8" role="alert">
+        <p class="font-medium">Could not load GitHub data</p>
+        <p class="text-sm mt-1">{{ error }}</p>
+        <p class="text-sm mt-1">Check your token, username, and rate limits.</p>
+      </div>
+      {% endif %}
+      {% if not error %}
       <section>
         <div
           class="bg-white rounded-lg border p-6 w-full flex flex-col gap-6 shadow-lg my-16"
@@ -251,6 +259,7 @@
           {% endfor %}
             </div>
       </section>
+      {% endif %}
     </div>
   </body>
 </html>
